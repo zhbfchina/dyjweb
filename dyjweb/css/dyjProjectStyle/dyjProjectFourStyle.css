@@ -1,0 +1,253 @@
+﻿body, html
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.dyj-all
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#divMainImg
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.dyj-BgImg
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../res/imgs/slider-bg1.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.dyj-ani-img
+{
+    width: 552px;
+    height: 128px;
+    background-image: url("../../res/imgs/h_logo_ny.png");
+    background-size: 100% 100%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: aniImg 2s forwards;
+}
+
+
+@keyframes aniImg
+{
+ from{top:50%;}
+ to{top:0;}   
+}
+
+/*项目介绍*/
+.dyj-project-interduct
+{
+     height: max-content;
+     text-align:center;
+}
+.dyj-project-interduct-caption
+{
+        font-size: 3vh;
+    font-family: serif;
+    color: gray;
+    margin-top:50px;
+
+}
+.dyj-project-interduct-content
+{
+        font-size: 1.5vh;
+    font-family: sans-serif;
+    color: gray;
+        width:80%;
+        text-align:center;
+        margin:0 auto;
+}
+
+/*项目组成部分*/
+.dyj-project-consist
+{
+     height:max-content;
+     width:60%;
+     text-align:center;
+     margin:0 auto; 
+}
+
+
+.dyj-project-consist-caption
+{
+    font-weight:bold;
+    font-size:2vh;
+    text-align:center;
+    height:100px;
+    line-height:100px;
+}
+
+.dyj-project-consist-list
+{
+     height:400px;
+     width:100%;
+     text-align:center;
+}
+
+.dyj-project-img-word
+{
+    width: 31%;
+    height: 80%;
+    float: left;
+    margin: 1%;
+    border: 0.2px solid gray;
+    border-color: rgb(229,229,229);
+}
+
+.dyj-project-img-word-img
+{
+    width:100%;
+    height:80%;
+     background-image: url("../../res/imgs/lastnews/17.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+}
+
+.dyj-project-img-words
+{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:2vh;
+    font-weight:bold;
+}
+
+ 
+ 
+
+.towLine
+{
+    border-bottom:1px solid rgb(229,229,229);
+    border-top:1px solid rgb(229,229,229);
+    width:100px;
+    height:2px;
+    float:left;
+}
+
+.dyj-project-diretion-cation
+{
+    padding-top:50px;
+    font-weight:bold;
+    font-size:2vh; 
+       width: max-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dyj-project-diretion-cations
+{
+     float:left;
+     margin-left:20px;
+     margin-right:20px;
+}
+
+
+
+
+
+
+
+#divImgs
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(242,242,242);
+    text-align:center;
+     display:flex;
+   /* justify-content:center;*/
+    align-items:center;
+    overflow:hidden;
+}
+.dyj-img-lst-wrap
+{
+      width:100%;
+    height:420px;
+    position:absolute;
+       overflow: auto;
+}
+.dyj-img-lst
+{
+    width:max-content;
+    height:400px;
+     
+}
+.dyj-img-lst-img
+{
+     width: 600px;
+    height: 100%;
+    background-image: url("../../res/imgs/project/lb_tip(33).jpg");
+    background-size: 100% 100%;
+    float:left;
+    margin-right:10px;
+}
+
+.dyj-img-lst-img:hover
+{
+    cursor:pointer;
+}
+
+#divImgs:hover  .dyj-a-btn-1
+{
+    display:block;
+    opacity:0.6;
+}
+
+ .dyj-btn-wrap
+ {
+     width: 100%;
+    height: 40px;
+ }
+
+ .dyj-a-btn-1
+ {
+     background:black;
+     
+     color:White;
+         width: 50px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 27px;
+    display:none;
+ }
+ 
+ .dyj-a-btn-1:hover
+ {
+     opacity:0.1;
+     cursor:pointer;
+ }
+ 
+ 
+ #aImgLeft
+ {
+     float:left;
+ }
+  #aImgRight
+ {
+     float:right;
+ }
+ 
+ 
+ 
+.dyj-btn-1
+{
+    
+}

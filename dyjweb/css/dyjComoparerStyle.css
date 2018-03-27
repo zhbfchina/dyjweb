@@ -1,0 +1,99 @@
+﻿body, html
+{  
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgb(242,242,242);
+}
+
+
+.dyj-all
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#divtopbg
+{
+    width: 100%;
+    height: 300px;
+    background-image: url("../res/imgs/slider-bg1.jpg");
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    line-height: 300px;
+    font-size: 5vh;
+    color: White;
+    padding:100px;
+}
+
+
+#divcenter
+{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+
+#divteaminter
+{
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 4vh;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#divInterduce
+{
+    width: 80%;
+    height: 80px;
+    font-size: 2vh;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#divUserLst
+{
+     width: 90%;
+    height: max-content;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: White;
+}
+
+.dyj-about-user-com
+{
+    width: 300px;
+    height: 340px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+
+
+.dyj-about-user-com:hover
+{
+    box-shadow: 0 0 20px rgba(0,98,177,.6), inset 0 0 10px rgba(0,98,180,.4), 0 0 0 rgba(0,77,139,.6), 0 0 0 rgba(0,77,139,.6);
+}
+
+
+
+.dyj-about-user-img-com
+{
+   
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: 70px auto;
+}
+

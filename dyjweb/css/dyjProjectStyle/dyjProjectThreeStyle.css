@@ -1,0 +1,76 @@
+﻿body, html
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.dyj-all
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#divMainImg
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+ 
+ 
+/*项目介绍*/
+.dyj-project-interduct
+{
+     height: 200px;
+     text-align:center;
+}
+.dyj-project-interduct-caption
+{
+        font-size: 5vh;
+    font-family: serif;
+    color: gray;
+    margin-top:50px;
+
+}
+.dyj-project-interduct-content
+{
+        font-size: 2vh;
+    font-family: sans-serif;
+    color: gray;
+        width:80%;
+        text-align:center;
+        margin:0 auto;
+}
+
+/*项目组成部分*/
+.dyj-project-consist
+{
+     height:max-content;
+     width:80%;
+     text-align:center;
+     margin:0 auto; 
+}
+
+.dyj-project-consist-caption
+{
+    font-size:2vh;
+    color:rgb(68,68,68)
+}
+
+ 
+
+ 
+
+
+/*项目参与者*/
+.dyj-project-parter
+{
+    height:max-content;
+     width:80%;
+     text-align:center;
+     margin:0 auto; 
+}
+
+ 

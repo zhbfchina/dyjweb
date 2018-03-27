@@ -1,0 +1,169 @@
+﻿body, html
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.dyj-all
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#divMainImg
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.dyj-BgImg
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../res/imgs/slider-bg1.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.dyj-ani-img
+{
+    width: 552px;
+    height: 128px;
+    background-image: url("../../res/imgs/h_logo_ny.png");
+    background-size: 100% 100%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: aniImg 2s forwards;
+}
+
+
+@keyframes aniImg
+{
+ from{top:50%;}
+ to{top:0;}   
+}
+
+/*项目介绍*/
+.dyj-project-interduct
+{
+    
+}
+
+
+/*项目组成部分*/
+.dyj-project-consist
+{
+    
+}
+
+
+
+/*项目参与者*/
+.dyj-project-parter
+{
+    
+}
+
+
+
+/*项目流程*/
+.dyj-project-diretion
+{
+    
+}
+
+
+
+
+#divImgs
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(242,242,242);
+    text-align:center;
+     display:flex;
+   /* justify-content:center;*/
+    align-items:center;
+    overflow:hidden;
+}
+.dyj-img-lst-wrap
+{
+      width:100%;
+    height:420px;
+    position:absolute;
+       overflow: auto;
+}
+.dyj-img-lst
+{
+    width:max-content;
+    height:400px;
+     
+}
+.dyj-img-lst-img
+{
+     width: 600px;
+    height: 100%;
+    background-image: url("../../res/imgs/project/lb_tip(33).jpg");
+    background-size: 100% 100%;
+    float:left;
+    margin-right:10px;
+}
+
+.dyj-img-lst-img:hover
+{
+    cursor:pointer;
+}
+
+#divImgs:hover  .dyj-a-btn-1
+{
+    display:block;
+    opacity:0.6;
+}
+
+ .dyj-btn-wrap
+ {
+     width: 100%;
+    height: 40px;
+ }
+
+ .dyj-a-btn-1
+ {
+     background:black;
+     
+     color:White;
+         width: 50px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 27px;
+    display:none;
+ }
+ 
+ .dyj-a-btn-1:hover
+ {
+     opacity:0.1;
+     cursor:pointer;
+ }
+ 
+ 
+ #aImgLeft
+ {
+     float:left;
+ }
+  #aImgRight
+ {
+     float:right;
+ }
+ 
+ 
+ 
+.dyj-btn-1
+{
+    
+}

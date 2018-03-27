@@ -1,0 +1,302 @@
+﻿body, html
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+    font-family: 华文细黑;
+}
+
+.dyj-all
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#divMainImg
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+#divCompanyDescript
+{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.dyj-caption1
+{
+    font-size: 30px;
+}
+
+
+.dyj-content-main
+{
+    width: 60%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.dyj-div-caption
+{
+}
+.dyj-caption2
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#divIdealContent
+{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.dyj-img-word-over
+{
+    width: 22.5%;
+    height: 400px;
+    float: left;
+    margin: 0 1% 0 1%;
+    border: 0.5px solid gray;
+}
+
+.dyj-img-over-word
+{
+    width: 100%;
+    height: 45%;
+}
+.dyj-over-word-bg
+{
+    width: 100%;
+    background-color: Green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    display: none;
+    z-index: 9999;
+}
+.dyj-over-word-bg:hover
+{
+    display: flex;
+}
+#divCompanyImg1
+{
+    background-image: url("../res/imgs/project/pro_1.jpg");
+    background-size: 100% 100%;
+}
+#divCompanyImg2
+{
+    background-image: url("../res/imgs/project/pro_2.jpg");
+    background-size: 100% 100%;
+}
+
+#divCompanyImg3
+{
+    background-image: url("../res/imgs/project/pro_3.jpg");
+    background-size: 100% 100%;
+}
+
+#divCompanyImg4
+{
+    background-image: url("../res/imgs/project/pro_4.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+
+.dyj-img-info
+{
+}
+
+.dyj-word
+{
+    width: 90%;
+    height: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.dyj-word-caption
+{
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.dyj-word-content
+{
+    margin: 0 auto;
+}
+
+#divLastNews
+{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(39,39,39);
+    margin-top: 100px;
+}
+
+#divLastNewsCaption
+{
+    padding-top: 50px;
+}
+
+
+#divLastNewsCaptionP
+{
+    color: White;
+}
+#divLastContent
+{
+    height: 80%;
+    width: 100%;
+}
+
+.dyj-last-img
+{
+    width: 20%;
+    height: 45%;
+    float: left;
+}
+
+.dyj-img-word
+{
+    width: 380px;
+    height: 251px;
+    float: left;
+}
+
+.dyj-img-word-img
+{
+    background-image: url("../res/imgs/last/39.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.dyj-img-word-wrap
+{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffE0;
+    opacity: 0.8;
+}
+
+.dyj-img-words-link
+{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: none;
+    color: red;
+}
+
+
+.dyj-img-word-img:hover .dyj-img-words-link
+{
+    display: block;
+}
+.dyj-img-words
+{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgb(226,127,189);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 5%;
+    bottom: 0px;
+    line-height: 50px;
+}
+
+
+#divLastBtnWrap
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.dyj-img-button-word
+{
+    text-decoration: none;
+    color: White;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+.dyj-img-button-word:hover
+{
+    color: Purple;
+    cursor: pointer;
+    border-color: Purple;
+}
+
+#divCompaners
+{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+#divCompanerContent
+{
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+}
+.dyj-border-div
+{
+    width: 30%;
+    height: 100%;
+    border: 1px solid gray;
+    float: left;
+    margin: 0 1.5% 0 1.5%;
+}
+
+.dyj-img-word-companer
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.dyj-img-over-word-companer
+{
+    width: 100%;
+    height: 80%;
+}
+
+#divCompanerImg1
+{
+    background-image: url("../res/imgs/companer/s1.jpg");
+    background-size: 100% 100%;
+}
+#divCompanerImg2
+{
+    background-image: url("../res/imgs/companer/s2.jpg");
+    background-size: 100% 100%;
+}
+#divCompanerImg3
+{
+    background-image: url("../res/imgs/companer/s3.jpg");
+    background-size: 100% 100%;
+}
+
